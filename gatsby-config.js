@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `nehalem-starter`,
-    siteUrl: `https://nehalem.netlify.com`,
-    description: `A Gatsby starter for nehalem`,
+    title: `Postings on Technology, Business and life.`,
+    siteUrl: `https://www.rnwolf.net`,
+    description: `Musings on how to live a great life in a changing world.`,
     topics: [],
     menu: [
       {
@@ -10,29 +10,47 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'Example',
-        path: '/page'
+        name: 'About',
+        path: '/page/about'
+      },
+      {
+        name: 'Contact',
+        path: '/page/contact'
+      },
+      {
+        name: 'Tags',
+        path: '/tags'
       },
     ],
     footerMenu: [
       {
-        name: 'Example',
-        path: '/page'
+        name: 'Pivacy',
+        path: '/page/privacy'
+      },
+      {
+        name: 'Newsletter',
+        path: '/page/newsletter'
+      },
+      {
+        name: 'Sitemap',
+        path: '/sitemap.xml'
+      },
+      {
+        name: 'RSS',
+        path: '/rss.xml'
       },
     ],
     search: true,
     author: {
-      name: `nehalem`,
-      description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
-        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a 
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+      name: `Rüdiger Wolf`,
+      description: `I'm <strong>Rüdiger</strong>. If you like what you see feel free to share.`,
       social: {
         facebook: ``,
-        twitter: `https://twitter.com/nehalist`,
-        linkedin: `https://www.linkedin.com/in/kevin-hirczy-7a9377106/`,
+        twitter: `https://twitter.com/rnwolf`,
+        linkedin: `https://www.linkedin.com/in/rudigerwolf/`,
         instagram: ``,
         youtube: ``,
-        github: `https://github.com/nehalist`,
+        github: `https://github.com/rnwolf`,
         twitch: ``
       }
     }
@@ -48,7 +66,7 @@ module.exports = {
           background_color: `#a4cbb8`,
           theme_color: `#a4cbb8`,
           display: `minimal-ui`,
-          icon: `${__dirname}/content/assets/images/logo.png`
+          icon: `${__dirname}/content/assets/images/rnwolf-logo.png`
         }
       }
     }
