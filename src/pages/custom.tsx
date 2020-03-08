@@ -2,7 +2,7 @@ import React, {FunctionComponent} from "react";
 import Layout from "@nehalist/gatsby-theme-nehalem/src/components/layout";
 import SEO from "@nehalist/gatsby-theme-nehalem/src/components/seo";
 import Subheader from "@nehalist/gatsby-theme-nehalem/src/components/subheader";
-mport {Container} from "@nehalist/gatsby-theme-nehalem/src/components/common";
+import {Container} from "@nehalist/gatsby-theme-nehalem/src/components/common";
 
 const CustomPage: FunctionComponent<{ location: Location }> = ({location}) => (
 	  <Layout bigHeader={false}>
