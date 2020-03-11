@@ -1,14 +1,16 @@
 ---
-title: Sample page
+title: About me 
 path: "/about"
 excerpt: About Rüdiger Wolf
 ---
 
-## About me
+## Welcome to my digital home
 
-Twitter: @rnwolf
-Email: Rudi@rnwolf.net
-LinkedIn: https://www.linkedin.com/in/rudigerwolf/
+![about photo][./about.png]
+
+- Twitter: @rnwolf
+- Email: Rudi@rnwolf.net
+- LinkedIn: https://www.linkedin.com/in/rudigerwolf/
 
 Professionally I work with people and teams to transform ideas into valuable products and services. This usually includes technical development teams, because technology is often tightly coupled to the work we do.
 
