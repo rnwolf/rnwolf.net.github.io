@@ -6,7 +6,7 @@ excerpt: About Rüdiger Wolf
 
 ## Welcome to my digital home
 
-![about photo][./about.png]
+![about photo](./about.png)
 
 - Twitter: @rnwolf
 - Email: Rudi@rnwolf.net

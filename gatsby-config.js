@@ -11,11 +11,7 @@ module.exports = {
       },
       {
         name: 'About',
-        path: '/page/about'
-      },
-      {
-        name: 'Contact',
-        path: '/page/contact'
+        path: '/about'
       },
       {
         name: 'Tags',
@@ -32,7 +28,7 @@ module.exports = {
         path: '/page/newsletter'
       },
       {
-        name: 'Sitemap',
+        name: 'Sitemap.xml',
         path: '/sitemap.xml'
       },
       {
