@@ -1,6 +1,6 @@
 ---
 title: Sample page
-sth: "/about"
+path: "/about"
 excerpt: About Rüdiger Wolf
 ---
 
