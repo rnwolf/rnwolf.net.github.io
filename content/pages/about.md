@@ -6,7 +6,7 @@ excerpt: About Rüdiger Wolf
 
 ## About me
 
-![Rudi Photo][/content/assets/images/avatar.png] 
+![Rudi Photo][./content/assets/images/avatar.png] 
 Twitter: @rnwolf
 Email: Rudi@rnwolf.net
 LinkedIn: https://www.linkedin.com/in/rudigerwolf/
