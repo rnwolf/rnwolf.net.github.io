@@ -21,7 +21,7 @@ jobs:
 
       - name: Create CNAME file
         run: |
-          echo "www.rnwolf.net" > public/CNAME
+          echo "rnwolf.net" > public/CNAME
 
       - name: deploy
         uses: maxheld83/ghpages@v0.2.1
