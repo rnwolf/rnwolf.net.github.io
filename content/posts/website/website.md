@@ -1,9 +1,9 @@
 ---
-title: "Lorem ipsum"
-path: "/demo"
-tags: ["Demo"]
+title: "New Website"
+path: "/website"
+tags: ["Technology"]
 featuredImage: "./cover.jpg"
-excerpt: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+excerpt: New website based on static site publisher Gatsby, github pages and Cloudflare.
 created: 2019-07-22
 updated: 2019-07-22
 ---
