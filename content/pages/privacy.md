@@ -1,6 +1,6 @@
 ---
 title: Privacy policy
-path: "/pages/privacy"
+path: "/page/privacy"
 excerpt: What I do with your data.
 ---
 

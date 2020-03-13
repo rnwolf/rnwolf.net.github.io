@@ -1,6 +1,6 @@
 ---
 title: Newsletter 
-path: "/pages/newsletter"
+path: "/page/newsletter"
 excerpt: Sign up to a newsletter.
 ---
 

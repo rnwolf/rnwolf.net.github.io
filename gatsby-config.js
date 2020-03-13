@@ -32,7 +32,7 @@ module.exports = {
         path: '/sitemap.xml'
       },
       {
-        name: 'RSS',
+        name: 'RSS.xml',
         path: '/rss.xml'
       },
     ],
