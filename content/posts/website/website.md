@@ -2,13 +2,13 @@
 title: "New Website"
 path: "/website"
 tags: ["Technology"]
-featuredImage: "./cover.jpg"
+featuredImage: "./web.png"
 excerpt: New website based on static site publisher Gatsby, github pages and Cloudflare.
-created: 2019-07-22
-updated: 2019-07-22
+created: 2020-03-14
+updated: 2020-03-14
 ---
 
-## Cruciabere instruit
+## My Heading 
 
 Lorem markdownum et altis custodia, si castaque culpavit *stipite*. Dat ad stat,
 his, comites fuit subito [fer](http://geminis.com/) dabat videri et cernis
@@ -55,3 +55,8 @@ os. Vota restabat Martius poposcerit infelix faciebat.
 **Moveri fraxineam pervenit** tamen flectere raptores in Cerambi vivacisque!
 Deum tum neque, procul in is series prorae, en. Nymphae propiora timidus, ora
 olor aderat fuit deus, ab est? Modo nisi? Quem suos, erat vitiato.
+
+
+## References
+
+Web Photo by [Nicolas Picard on Unsplash](https://unsplash.com/@artnok?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge)

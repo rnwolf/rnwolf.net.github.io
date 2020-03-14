@@ -6,9 +6,9 @@ excerpt: What I do with your data.
 
 ## The simple version
 
-I will not sell your data neither will I pass on your data on to anyone who shouldn’t have it.
-I will only e-mail you if you say I can.
-If you want me to remove your data, just email me at rudi@rnwolf.net
+* I will not sell your data neither will I pass on your data on to anyone who shouldn’t have it.
+* I will only e-mail you if you say I can.
+* If you want me to remove your data, just email me at rudi@rnwolf.net
 
 I may have to keep your data for commercial and legal purposes. For example if you buy a training course or book from me you’ll have to pay and provide your address. I will need to keep this and also communicate with you to conclude our business.
 
@@ -20,7 +20,7 @@ When I say 'personal data', it is information where I can personally identify yo
 
 ### Communication data
 
-If you send me an email, social media message, post or information through the contact or newsletter forms on my website I will need to do something with it this data for the purposes of:
+If you send me an email, social media message, post or information through the contact or newsletter forms on my website I will need to do something with this data for the purposes of:
 
 * communicating with you
 * recording keeping (for example: if I need to invoice you I have to keep a record) 
@@ -33,7 +33,7 @@ If you buy a service from me, a training course or ebook and you give me your: n
 
 I track how this website and newsletters are used. If you post a comment and I think it is a great comment I might use it on social media and 'tweet' it for example. I might keep or re-use some of your words in another document, such as a Google spreadsheet or another blog post.
 
-I also have version a control system to backup this website and backups of data relating operating such a service.
+I also use a version control system to publish this website and I also backup this website and data relating operating such a service.
 
 ### Technical data
 
