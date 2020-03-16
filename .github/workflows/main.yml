@@ -27,5 +27,6 @@ jobs:
         uses: maxheld83/ghpages@v0.2.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GOOGLE_ANALYTICS_TRACKING_ID: ${{ secrets.GOOGLE_ANALYTICS_TRACKING_ID }}
           GH_PAT: ${{ secrets.GITHUB_API_KEY }}
           BUILD_DIR: "public/"
