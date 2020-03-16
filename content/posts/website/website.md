@@ -8,7 +8,7 @@ created: 2020-03-14
 updated: 2020-03-16
 ---
 
-## A place to collect and share to my interests
+## A place to collect and share my interests
 
 There is so much to explore and learn in this wonderful world.  This website helps me to summarise my extensive reading so that I can find the good stuff later and also share it with the people who have similar interests.
 
@@ -33,19 +33,19 @@ One of the great aspects of Gatsby is a collection of publicly [contributed star
 Why this theme?
 
 * Fully responsive (Changes layout and images based on viewing device)
-* Highly optimized (A high score, ~400, by [Lighthouse](https://developers.google.com/web/tools/lighthouse), a testing tool developed by Google)
+* Highly optimized (A high score, ~400, by [Lighthouse](https://developers.google.com/web/tools/lighthouse), a website assessment tool developed by Google)
 * SEO optimized (with open graph, Twitter Card, JSON-LD, RSS and sitemap)
 * Search functionality
 * Static pages (Makes it easy to setup, version control and publish to a webserver.)
 * Tagging (To group writing into categories, in order to find similar content.)
-* Customizable (A site is never complete and there are always changes to make. Its got to be easy to extend for features and the styling.)
+* Customizable (A site is never complete and there are always changes to make. Its got to be easy to extend features and styling.)
 
 ## The plumbing
 
 * Site Repository : Version controlled in a git repo, housed in GitHub.com.
-* Automated generation : GitHib Actions for automated site rendering and publishing
+* Automated generation : GitHub Actions for automated site rendering and publishing
 * GitHub Pages : The published web pages.
-* Local editing : Windows 10, WSL2 and VSCode & GIMP.
+* Local editing : Windows 10, [WSL2](https://www.youtube.com/watch?v=MrZolfGm8Zk), [VSCode](https://code.visualstudio.com/) & [GIMP](https://www.gimp.org/).
 * Content delivery network (CDN) : Cloudflare.
 * Cloud functions : Still to be decided.
 
