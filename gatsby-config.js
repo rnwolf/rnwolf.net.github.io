@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Postings on technology, business and life.`,
     siteUrl: `https://www.rnwolf.net`,
-    description: `Musings on how to live a great life in a changing world.`,
+    description: `Always more to explore.`,
     topics: [],
     menu: [
       {

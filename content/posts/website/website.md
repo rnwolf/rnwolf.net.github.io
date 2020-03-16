@@ -2,60 +2,52 @@
 title: "New Website"
 path: "/website"
 tags: ["Technology"]
-featuredImage: "./web.png"
+featuredImage: "./web-banner.png"
 excerpt: New website based on static site publisher Gatsby, github pages and Cloudflare.
 created: 2020-03-14
-updated: 2020-03-14
+updated: 2020-03-16
 ---
 
-## My Heading 
+## A place to collect and share to my interests
 
-Lorem markdownum et altis custodia, si castaque culpavit *stipite*. Dat ad stat,
-his, comites fuit subito [fer](http://geminis.com/) dabat videri et cernis
-patriorum! Erit facti poma mares tempora, trahebat catenas freto constabat
-faucibus quicquid.
+There is so much to explore and learn in this wonderful world.  This website helps me to summarise my extensive reading so that I can find the good stuff later and also share it with the people who have similar interests.
 
-Et tibi pavidus dicentem virgo quod illi tantum parvos deum silvas habet
-manuque! Nec tu lassa si didicit corpus reformet in poterat picea.
+## Criteria
 
-    mainframe.printer = imapRippingE / 3;
-    rfidCell += illegalControlBaud - real;
-    dns.aixScraping.ocr_syntax_default(output_t);
+There are so many aspects to consider when selecting a website platform. Here are some of the key criteria I took into account.
 
-## Amens ferox ego non has iuventa incidit
+### Static site generator
 
-In Phoebeos sed usus genitor. Ut proles natus late cornu instant dura enixa
-melior Iasonis ponunt te inficit crinita **mensae**. Fiducia sua silvis sacer,
-quae tuo dum!
+When I started my web journey, in the late nineties we used to build websites by simply creating individual text files containing HTML tags and words. The HTML pages were published to a web server.  Then we started building dynamic websites with complex content management systems (CMS). CMS work with concepts such as themes or templates, which control the way pages and content are displayed in your web browser.
 
-> Nepotis hoc sine huic stupet. Mihi sine lucem, intrat annis regimen silvaque
-> victos, iam domus illa. Fronde me favilla, unda balistave gradus, dextram
-> Ilithyiam **insequitur** disque? Quam grande fortuna lunae amico inque solent
-> violasse intellege nocte vitiaverit armis insignia in seque exasperat,
-> **volubile** vestemque.
+Static site generators are a step-up from static sites and not as complex as a CMS. A static site generator also uses templates to generate static HTML-only websites, whose content is either extracted from a database or read from text files written in a [Markdown](https://en.wikipedia.org/wiki/Markdown) format.
 
-## Dilapsa sententia o querenti tamen
+I tried a number , [Hugo](https://gohugo.io/), [Jekyll](https://jekyllrb.com/), [Nikola](https://getnikola.com/).  This site is built with [Gatsby](https://www.gatsbyjs.org/).
 
-Poenarum quaerebat me mundi, in fuerint coniungere puellis omnes. Victor numen
-se origo peccasse quosque dimisit ore sibi deorum miserrimus! Ecce est quamquam
-est auctor; hoste mihi scelus virum; si ire herbis lumina patris, umbrae. Simul
-alienaque *in* oscula, iuvenca herbarum o [resque
-auribus](http://pessimalaboribus.io/mole), iugo? **Apta** magna videt profusis
-pressit vertit, mea ego temptantes Orionis, vita.
+### Gatsby off the shelf starters
 
-Est rectorque *ales ubi* extremis demens plaustrum sub, puppis semilacerque
-gerit reppulerint et barbare caput non est dierum tertia. Hinc
-[tua](http://paulatimque.com/simillima-quae.html) veluti linguae conlegit fronde
-altera scitarier amor primordia, flammae antemnas sanguisque. Anienis praeterita
-ducit. Echidnaeae quibus lympha, ius sonumque occupat gladios.
+One of the great aspects of Gatsby is a collection of publicly [contributed starter websites](https://www.gatsbyjs.org/starters/?v=2).  I found one, [Nehalem](https://www.gatsbyjs.org/starters/nehalist/gatsby-starter-nehalem/) that ticked most of my boxes.
 
-Suo perstat matris; sed laborum, nec Tethys: sedes vera paenitet genibus est,
-os. Vota restabat Martius poposcerit infelix faciebat.
+#### gatsby-starter-nehalem
 
-**Moveri fraxineam pervenit** tamen flectere raptores in Cerambi vivacisque!
-Deum tum neque, procul in is series prorae, en. Nymphae propiora timidus, ora
-olor aderat fuit deus, ab est? Modo nisi? Quem suos, erat vitiato.
+Why this theme?
 
+* Fully responsive (Changes layout and images based on viewing device)
+* Highly optimized (A high score, ~400, by [Lighthouse](https://developers.google.com/web/tools/lighthouse), a testing tool developed by Google)
+* SEO optimized (with open graph, Twitter Card, JSON-LD, RSS and sitemap)
+* Search functionality
+* Static pages (Makes it easy to setup, version control and publish to a webserver.)
+* Tagging (To group writing into categories, in order to find similar content.)
+* Customizable (A site is never complete and there are always changes to make. Its got to be easy to extend for features and the styling.)
+
+## The plumbing
+
+* Site Repository : Version controlled in a git repo, housed in GitHub.com.
+* Automated generation : GitHib Actions for automated site rendering and publishing
+* GitHub Pages : The published web pages.
+* Local editing : Windows 10, WSL2 and VSCode & GIMP.
+* Content delivery network (CDN) : Cloudflare.
+* Cloud functions : Still to be decided.
 
 ## References
 
