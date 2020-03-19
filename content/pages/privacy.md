@@ -63,4 +63,4 @@ It is your data I hold. You have rights. Take a look at the United Kingdoms [ICO
 
 ### Contact me
 
-If you have any problems or questions with any of this data and privacy protection stuff, email me at rudi@rnwolf.net.
+If you have any problems or questions with any of this data and privacy protection stuff, email me at [rudi@rnwolf.net](mailto:rudi@rnwolf.net).
