@@ -13,16 +13,15 @@ const CustomPage: FunctionComponent<{ location: Location }> = ({location}) => (
     	  <Subheader title={`Page title`} subtitle={`Something else`} />
 	    <Container>
 		<p>I'll send out a newsletter containing interesting updates every couple of months. Let me know if you would like a copy.</p> 
-      		<form accept-charset="UTF-8" action="https://www.formbackend.com/f/1423c13e3fbcba3b" method="POST">
-  			<label for="name">Name</label>
-  			<input type="text" id="name" name="name" required />
-
-  			<label for="email">Email</label>
-  			<input type="email" id="email" name="email" required />
-
+      		<form accept-charset="UTF-8" action="https://throughputfocus-contact.azurewebsites.net/api/HttpTrigger" method="POST">
+  			<label >Name</label>
+  			<input type="text" id="name" name="name" placeholder="Name" required  />
+  			<label >Email</label>
+  			<input type="email" id="email" name="email"placeholder="Email" required />
+			<input type="hidden" id="source" name="source" value="newsletter.rnwolf.net" />
   			<button type="submit">Submit</button>
 		</form>
-    
+
 	    </Container>
 	</Layout>
 );
