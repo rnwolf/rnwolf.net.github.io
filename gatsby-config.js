@@ -52,6 +52,14 @@ module.exports = {
     }
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        // The option defaults to true
+        checkSupportedExtensions: false,
+      },
+    },
     {
       resolve: `@nehalist/gatsby-theme-nehalem`,
       options: {
