@@ -1,8 +1,8 @@
 ---
 title: "New Website"
-path: "/website"
+path: "/2020-03_website"
 tags: ["Technology"]
-featuredImage: "./web-banner.png"
+featuredImage: "./web-two-one.png"
 excerpt: New website based on static site publisher Gatsby, github pages and Cloudflare.
 created: 2020-03-14
 updated: 2020-03-16
