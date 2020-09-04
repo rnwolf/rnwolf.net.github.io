@@ -25,7 +25,7 @@ module.exports = {
       },
       {
         name: 'Newsletter',
-        path: '/page/newsletter'
+        path: '/newsletter'
       },
       {
         name: 'Sitemap.xml',
