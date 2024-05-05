@@ -1,52 +1,47 @@
-# Nehalem Gatsby starter
+# Astro Starter Kit: Minimal
 
-<p align="center">
-    <img src="https://github.com/nehalist/gatsby-theme-nehalem/blob/master/theme/logo.png?raw=true">
-</p>
-
-> Check the [Demo](https://nehalem.netlify.com)!
-
-Starter for [`@nehalist/gatsby-theme-nehalem`](https://github.com/nehalist/gatsby-theme-nehalem).
-
-## Features
-
-Out-of-the-box:
-
-- Fully responsive
-- Highly optimized (Lighthouse score ~400)
-- SEO optimized (with open graph, Twitter Card, JSON-LD, RSS and sitemap)
-- Syntax highlighting
-- Search functionality
-- Multi navigations
-- Static pages
-- Fully typed with TypeScript
-- Tagging
-- Theming
-- Customizable
-
-See [here](https://nehalem.netlify.com/features) for details!
-
-## Getting Started
-
-Install this starter by running
-
-```bash
-gatsby new your-site-name https://github.com/nehalist/gatsby-starter-nehalem
+```sh
+npm create astro@latest -- --template minimal
 ```
 
-`cd` into the `your-site-name` directory and run `gatsby develop` directory and run `gatsby-develop` to start your site on `localhost:8000`.  
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-## Documentation
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-The entire documentation can be found on the [Demo](https://nehalem.netlify.com). Alternatively check 
-the [GitHub repository](https://github.com/nehalist/gatsby-theme-nehalem).
+## 🚀 Project Structure
 
-## Like the theme?
+Inside of your Astro project, you'll see the following folders and files:
 
-Happy to hear that! Feel free to star it on [GitHub](https://github.com/nehalist/gatsby-theme-nehalem)!
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-## Author
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-Developed by [nehalist.io](https://nehalist.io).
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-*Big thanks to my SO for the awesome logo!*
+Any static assets, like images, can be placed in the `public/` directory.
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
