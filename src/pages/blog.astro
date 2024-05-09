@@ -3,7 +3,14 @@ import { getCollection } from "astro:content";
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
 
-const allPosts = await getCollection("posts");
+// const allPosts = await getCollection("posts");
+const allPosts = (
+  await getCollection(
+    'posts',
+    ({ data }: CollectionEntry<'posts'>) => data.pubDate <= new Date()
+  )
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
 const pageTitle = "Blog";
 ---
 <BaseLayout pageTitle={pageTitle}>
@@ -12,7 +19,7 @@ const pageTitle = "Blog";
     <ul>
       {
         allPosts.map((post) => (
-          <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} />
+          <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} cover={post.data.cover} coverAlt={post.data.coverAlt}/>
         ))
       }
     </ul>

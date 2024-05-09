@@ -45,3 +45,16 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+
+# Images
+
+Sizable images from https://picsum.photos/
+
+## LinkedIn Link Preview Specifications
+
+Title: Up to 150 characters.
+Image: The image gets cropped into a 1.91:1 ratio and 1200 (width) x 627 (height) pixels. So you need an image with a compatible ratio and width of 1200px+.
+Optional comment of up to 1300 characters. (This is the LinkedIn post that you write outside of the link.)
+
+Use the LinkedIn Debugger to preview. https://kinsta.com/blog/linkedin-debugger/
