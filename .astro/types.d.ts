@@ -145,18 +145,18 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 "post-1.mdx": {
 	id: "post-1.mdx";
-  slug: "post-1";
+  slug: "This_is_a_slug";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
-"post-2.md": {
-	id: "post-2.md";
+"post-2.mdx": {
+	id: "post-2.mdx";
   slug: "post-2";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "post-3.md": {
 	id: "post-3.md";
   slug: "post-3";
@@ -173,7 +173,7 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 "post-5.mdx": {
 	id: "post-5.mdx";
-  slug: "post-5";
+  slug: "We_need_uunique";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

@@ -3,11 +3,15 @@ title: 'My First Blog Post'
 pubDate: 2024-01-01
 updatedDate: 2024-01-20
 description: 'This is the first post of my new Astro blog.'
+slug: This_is_a_slug
 author: 'Astro Learner'
 cover: ./images/image2-1200x627.jpg
-coverAlt: 'This is some test about the image'
+coverAlt: 'This is some text'
 tags: ["astro", "blogging", "learning in public"]
 ---
+
+import svgReference from './images/image.svg';
+
 # My First Blog Post
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
@@ -23,3 +27,7 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 ## What's next
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+
+<img src={svgReference.src} alt="description" width="200" />
+
+This is more test after SVG image.

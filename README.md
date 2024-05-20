@@ -58,3 +58,24 @@ Image: The image gets cropped into a 1.91:1 ratio and 1200 (width) x 627 (height
 Optional comment of up to 1300 characters. (This is the LinkedIn post that you write outside of the link.)
 
 Use the LinkedIn Debugger to preview. https://kinsta.com/blog/linkedin-debugger/
+
+
+# SVG diagrams
+
+How to use Github action to convert plant uml digrams to SVG files
+https://gist.github.com/thedmeyer/8b50362ae71ecbadabb17f8683c70ece
+
+
+# Todo
+
+Add SVG compoment to MDX page and astro pages for charts and any line diagrams : DONE
+Pagination for Blog posts
+Pagination for Tag posts
+Select specfic Blog posts for Home page - DONE
+Astro SEO package - WIP
+Accessible page components
+Update look and feel
+Version 1?
+
+
+
