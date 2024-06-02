@@ -69,10 +69,10 @@ https://gist.github.com/thedmeyer/8b50362ae71ecbadabb17f8683c70ece
 # Todo
 
 Add SVG compoment to MDX page and astro pages for charts and any line diagrams : DONE
-Pagination for Blog posts
+Pagination for Blog posts - DONE
 Pagination for Tag posts
 Select specfic Blog posts for Home page - DONE
-Astro SEO package - WIP
+Astro SEO package - WIP   See course [Astro Blog Course #16 - SEO basics](https://www.youtube.com/watch?v=fPifaHiKzz4)
 Accessible page components
 Update look and feel
 Version 1?
