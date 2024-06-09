@@ -65,6 +65,13 @@ Use the LinkedIn Debugger to preview. https://kinsta.com/blog/linkedin-debugger/
 How to use Github action to convert plant uml digrams to SVG files
 https://gist.github.com/thedmeyer/8b50362ae71ecbadabb17f8683c70ece
 
+## Problem using npm as we have bug.
+
+Error: Cannot find module @rollup/rollup-linux-x64-gnu. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+
+see if you can use another package manager.
+
+
 
 # Todo
 
