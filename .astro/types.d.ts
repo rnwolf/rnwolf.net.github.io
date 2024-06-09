@@ -135,28 +135,90 @@ declare module 'astro:content' {
 	>;
 
 	type ContentEntryMap = {
-		"posts": {
-"learning-astro.md": {
-	id: "learning-astro.md";
-  slug: "learning-astro";
+		"about": {
+"index.md": {
+	id: "index.md";
+  slug: "index";
+  body: string;
+  collection: "about";
+  data: any
+} & { render(): Render[".md"] };
+};
+"authors": {
+"-index.md": {
+	id: "-index.md";
+  slug: "-index";
+  body: string;
+  collection: "authors";
+  data: InferEntrySchema<"authors">
+} & { render(): Render[".md"] };
+"john-doe.md": {
+	id: "john-doe.md";
+  slug: "john-doe";
+  body: string;
+  collection: "authors";
+  data: InferEntrySchema<"authors">
+} & { render(): Render[".md"] };
+"mark-dinn.md": {
+	id: "mark-dinn.md";
+  slug: "mark-dinn";
+  body: string;
+  collection: "authors";
+  data: InferEntrySchema<"authors">
+} & { render(): Render[".md"] };
+};
+"pages": {
+"404.md": {
+	id: "404.md";
+  slug: "404";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".md"] };
+"contact.md": {
+	id: "contact.md";
+  slug: "contact";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".md"] };
+"elements.mdx": {
+	id: "elements.mdx";
+  slug: "elements";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".mdx"] };
+"privacy-policy.md": {
+	id: "privacy-policy.md";
+  slug: "privacy-policy";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".md"] };
+};
+"posts": {
+"-index.md": {
+	id: "-index.md";
+  slug: "-index";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "post-1.mdx": {
 	id: "post-1.mdx";
-  slug: "This_is_a_slug";
+  slug: "post-1";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
-"post-2.mdx": {
-	id: "post-2.mdx";
+"post-2.md": {
+	id: "post-2.md";
   slug: "post-2";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
+} & { render(): Render[".md"] };
 "post-3.md": {
 	id: "post-3.md";
   slug: "post-3";
@@ -171,13 +233,27 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"post-5.mdx": {
-	id: "post-5.mdx";
-  slug: "We_need_uunique";
+"post-5.md": {
+	id: "post-5.md";
+  slug: "post-5";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
+} & { render(): Render[".md"] };
+"post-6.md": {
+	id: "post-6.md";
+  slug: "post-6";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"post-7.md": {
+	id: "post-7.md";
+  slug: "post-7";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 };
 
 	};
