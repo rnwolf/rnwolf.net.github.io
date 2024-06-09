@@ -58,7 +58,6 @@ typings/
 
 # generated files
 .cache/
-public
 dist
 
 # Mac files
