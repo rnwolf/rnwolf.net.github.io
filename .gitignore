@@ -58,9 +58,6 @@ typings/
 
 # distribution files
 dist/
-public
-
-
 
 # Mac files
 .DS_Store
