@@ -73,3 +73,7 @@ yarn-error.log
 .yarn-integrity
 
 .netlify/
+
+# https://github.com/npm/cli/issues/4828#issuecomment-2120809827
+package-lock.json
+
