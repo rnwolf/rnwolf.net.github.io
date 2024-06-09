@@ -1,9 +1,0 @@
----
-import { Image } from "astro:assets";
-const { title, url, cover, coverAlt } = Astro.props;
-
----
-
-<li><a href={url}>{title}</a>
-    <Image src={cover} alt={coverAlt} width={100}/>
-</li>

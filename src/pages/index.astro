@@ -1,22 +1,16 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
-const pageTitle = "Home Page";
-import { getCollection } from "astro:content";
 
-// const allPosts = await getCollection("posts");
-const allPosts = (
-  await getCollection(
-    'posts',
-    ({ data }: CollectionEntry<'posts'>) => data.pubDate <= new Date()
-  )
-).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
-<BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
 
-  {allPosts.slice(0, 4).map((post) => (
-        <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} cover={post.data.cover} coverAlt={post.data.coverAlt}/>
-  ))}
-
-</BaseLayout>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<h1>My Astro Site</h1>
+	</body>
+</html>
