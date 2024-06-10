@@ -46,7 +46,6 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-
 # Images
 
 Sizable images from https://picsum.photos/
@@ -59,7 +58,6 @@ Optional comment of up to 1300 characters. (This is the LinkedIn post that you w
 
 Use the LinkedIn Debugger to preview. https://kinsta.com/blog/linkedin-debugger/
 
-
 # SVG diagrams
 
 How to use Github action to convert plant uml digrams to SVG files
@@ -71,18 +69,13 @@ Error: Cannot find module @rollup/rollup-linux-x64-gnu. npm has a bug related to
 
 see if you can use another package manager.
 
-
-
 # Todo
 
 Add SVG compoment to MDX page and astro pages for charts and any line diagrams : DONE
 Pagination for Blog posts - DONE
 Pagination for Tag posts
 Select specfic Blog posts for Home page - DONE
-Astro SEO package - WIP   See course [Astro Blog Course #16 - SEO basics](https://www.youtube.com/watch?v=fPifaHiKzz4)
+Astro SEO package - WIP See course [Astro Blog Course #16 - SEO basics](https://www.youtube.com/watch?v=fPifaHiKzz4)
 Accessible page components
 Update look and feel
 Version 1?
-
-
-

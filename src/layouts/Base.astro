@@ -61,6 +61,14 @@ const { title, meta_title, description, image, noindex, canonical } =
     <meta name="generator" content={Astro.generator} />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
+    <!-- RSS autodiscovery allows browsers and other software to automatically find a site’s RSS feed -->
+    <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Your Site's Title"
+    href={`${Astro.site}rss.xml`}
+    />   
+
     <!-- google font css -->
     <AstroFont
       config={[

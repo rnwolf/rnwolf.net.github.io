@@ -1,10 +1,10 @@
 {
-    "prettier.documentSelectors": ["**/*.astro"],
-    "[astro]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "auto-close-tag.activationOnLanguage": [
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "auto-close-tag.activationOnLanguage": [
     // …
     "mdx"
   ]
-  }
+}
