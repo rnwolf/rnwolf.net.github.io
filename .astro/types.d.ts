@@ -152,9 +152,9 @@ declare module 'astro:content' {
   collection: "authors";
   data: InferEntrySchema<"authors">
 } & { render(): Render[".md"] };
-"rudi-wolf.md": {
-	id: "rudi-wolf.md";
-  slug: "rudi-wolf";
+"rüdiger-wolf.md": {
+	id: "rüdiger-wolf.md";
+  slug: "rüdiger-wolf";
   body: string;
   collection: "authors";
   data: InferEntrySchema<"authors">
@@ -175,6 +175,20 @@ declare module 'astro:content' {
   collection: "pages";
   data: InferEntrySchema<"pages">
 } & { render(): Render[".md"] };
+"contact_problem.mdx": {
+	id: "contact_problem.mdx";
+  slug: "contact_problem";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".mdx"] };
+"contact_success.mdx": {
+	id: "contact_success.mdx";
+  slug: "contact_success";
+  body: string;
+  collection: "pages";
+  data: InferEntrySchema<"pages">
+} & { render(): Render[".mdx"] };
 "elements.mdx": {
 	id: "elements.mdx";
   slug: "elements";

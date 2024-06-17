@@ -17,13 +17,13 @@
   },
 
   "metadata": {
-    "meta_author": "Rudiger Wolf",
+    "meta_author": "Rüdiger Wolf",
     "meta_image": "/images/rnwolf-blog-og-image.png",
-    "meta_description": "Blog for Rudiger Wolf"
+    "meta_description": "Blog for Rüdiger Wolf"
   },
 
   "params": {
-    "contact_form_action": "#",
+    "contact_form_action": "https://europe-west2-functions-dev-286915.cloudfunctions.net/main",
     "copyright": "Copyright © 2024 - Website theme by [Themefisher](https://themefisher.com)"
   },
 
