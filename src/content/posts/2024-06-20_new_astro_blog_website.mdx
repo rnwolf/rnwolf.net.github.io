@@ -1,6 +1,6 @@
 ---
 title: "New website based on Astro"
-description: "Changed to new website framework, Astro, for personal blog"
+description: "Changed to new website framework, Astro, for personal blog."
 date: 2024-06-13T21:00:00Z
 image: "/images/posts/whats-new-shared.-IVrxKgH.webp"
 categories: ["technology"]
@@ -211,9 +211,12 @@ This for example ensures that when ever a link to an article is shared it is gen
 
 Once you get to a website it is often possible to use Google to scope search to a specific website domain but when content is frequently updated Google may not have indexed the new content yet.
 
-[Bookworm Light](https://astro.build/themes/details/bookworm-light-astro/) has integrated in a local search capability.
+[Bookworm Light](https://astro.build/themes/details/bookworm-light-astro/) has integrated in a local search capability based on [Fuse.js](https://www.fusejs.io/).
 
-This makes it easy for site users to quickly find content that might be useful to them.
+Fuse.js is suited for sites that require fuzzy searching when:
+
+ * you want client-side fuzzy searching of small to moderately large data sets.
+ * you can't justify setting up a dedicated backend simply to handle search. ElasticSearch or Algolia, although both great services, may be overkill for your particular use cases.
 
 ### Tags and Categories
 
