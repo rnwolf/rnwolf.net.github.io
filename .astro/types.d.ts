@@ -219,48 +219,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
-"post-2.md": {
-	id: "post-2.md";
-  slug: "post-2";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"post-3.md": {
-	id: "post-3.md";
-  slug: "post-3";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"post-4.md": {
-	id: "post-4.md";
-  slug: "post-4";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"post-5.md": {
-	id: "post-5.md";
-  slug: "post-5";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"post-6.md": {
-	id: "post-6.md";
-  slug: "post-6";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"post-7.md": {
-	id: "post-7.md";
-  slug: "post-7";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 };
 
 	};

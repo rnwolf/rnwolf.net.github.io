@@ -10,6 +10,7 @@ import config from "./src/config/config.json";
 
 import expressiveCode from "astro-expressive-code";
 import remarkMermaid from "remark-mermaidjs";
+import rehypeExternalLinks from 'rehype-external-links';
 
 // https://astro.build/config
 export default defineConfig({
@@ -50,6 +51,14 @@ export default defineConfig({
         {
           test: "Table of contents",
         },
+      ],
+    ],
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          content: { type: 'text', value: ' 🔗' }
+        }
       ],
     ],
     shikiConfig: {
