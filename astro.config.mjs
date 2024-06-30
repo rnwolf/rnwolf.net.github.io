@@ -14,7 +14,7 @@ import rehypeExternalLinks from 'rehype-external-links';
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
+  site: config.site.base_url ? config.site.base_url : "http://www.rnwolf.net",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
@@ -22,7 +22,11 @@ export default defineConfig({
   },
   integrations: [
     react(),
-    sitemap(),
+    sitemap({
+      filter: (page) =>
+        page !== 'https://www.rnwolf.net/contact_problem/' &&
+        page !== 'https://www.rnwolf.net/contact_success/',
+    }),    sitemap(),
     tailwind({
       config: {
         applyBaseStyles: false,

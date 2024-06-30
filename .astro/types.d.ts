@@ -212,9 +212,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"2024-06-20_new_astro_blog_website_widget.mdx": {
-	id: "2024-06-20_new_astro_blog_website_widget.mdx";
-  slug: "2024-06-20_new_astro_blog_website_widget";
+"2024-06-20_new_astro_blog_website.mdx": {
+	id: "2024-06-20_new_astro_blog_website.mdx";
+  slug: "2024-06-20_new_astro_blog_website";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
