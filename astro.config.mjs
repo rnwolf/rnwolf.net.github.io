@@ -24,9 +24,9 @@ export default defineConfig({
     react(),
     sitemap({
       filter: (page) =>
-        page !== 'https://www.rnwolf.net/contact_problem/' &&
-        page !== 'https://www.rnwolf.net/contact_success/',
-    }),    sitemap(),
+        page !== 'https://www.rnwolf.net/contact_problem' &&
+        page !== 'https://www.rnwolf.net/contact_success',
+    }),
     tailwind({
       config: {
         applyBaseStyles: false,
