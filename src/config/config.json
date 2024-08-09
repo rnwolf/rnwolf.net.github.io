@@ -5,7 +5,7 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/favicon.ico",
-    "logo": "/images/logo.png",
+    "logo": "/images/logo400x68.webp",
     "logo_width": "200",
     "logo_height": "34",
     "logo_text": "Logo for website"
@@ -19,6 +19,7 @@
   "metadata": {
     "meta_author": "Rüdiger Wolf",
     "meta_image": "/images/rnwolf-blog-og-image.png",
+    "meta_image_alt": "Artistic diagram of a head",
     "meta_description": "Blog for Rüdiger Wolf"
   },
 

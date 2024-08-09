@@ -71,7 +71,7 @@ const { title, meta_title, description, image, noindex, canonical } =
     type="application/rss+xml"
     title="Your Site's Title"
     href={`${Astro.site}rss.xml`}
-    />   
+    />
 
     <!-- google font css -->
     <AstroFont
@@ -171,7 +171,13 @@ const { title, meta_title, description, image, noindex, canonical } =
         image ? image : config.metadata.meta_image
       }`}
     />
-
+    <!-- og-image-alt -->
+    <meta
+      property="og:image:alt"
+      content={`${
+        image ? image : config.metadata.meta_image_alt
+      }`}
+    />
     <!-- twitter-image -->
     <meta
       name="twitter:image"
