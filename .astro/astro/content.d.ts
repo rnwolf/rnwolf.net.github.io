@@ -269,6 +269,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
+"2024-11-02_begining_wingfoiling.mdx": {
+	id: "2024-11-02_begining_wingfoiling.mdx";
+  slug: "2024-11-02_begining_wingfoiling";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
 };
 
 	};
