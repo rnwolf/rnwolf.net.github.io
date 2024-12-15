@@ -276,6 +276,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
+"2024-11-04_ key_factors_that_determine_the_success_of_collaborative_teams.mdx": {
+	id: "2024-11-04_ key_factors_that_determine_the_success_of_collaborative_teams.mdx";
+  slug: "2024-11-04_-key_factors_that_determine_the_success_of_collaborative_teams";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
+"2024-11-06_ interview_alan_barnard_flow_and_throughput.mdx": {
+	id: "2024-11-06_ interview_alan_barnard_flow_and_throughput.mdx";
+  slug: "2024-11-06_-interview_alan_barnard_flow_and_throughput";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
 };
 
 	};
