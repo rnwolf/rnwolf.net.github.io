@@ -283,9 +283,37 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
-"2024-11-06_ interview_alan_barnard_flow_and_throughput.mdx": {
-	id: "2024-11-06_ interview_alan_barnard_flow_and_throughput.mdx";
-  slug: "2024-11-06_-interview_alan_barnard_flow_and_throughput";
+"2024-11-06_interview_alan_barnard_flow_and_throughput.mdx": {
+	id: "2024-11-06_interview_alan_barnard_flow_and_throughput.mdx";
+  slug: "2024-11-06_interview_alan_barnard_flow_and_throughput";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
+"2024-11-07_poogi.mdx": {
+	id: "2024-11-07_poogi.mdx";
+  slug: "2024-11-07_poogi";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
+"2024-11-07_quick_vps.mdx": {
+	id: "2024-11-07_quick_vps.mdx";
+  slug: "2024-11-07_quick_vps";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
+"2024-11-19_managing_your_finances.mdx": {
+	id: "2024-11-19_managing_your_finances.mdx";
+  slug: "2024-11-19_managing_your_finances";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
+"2024-11-19_marketing_professional_services.mdx": {
+	id: "2024-11-19_marketing_professional_services.mdx";
+  slug: "2024-11-19_marketing_professional_services";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

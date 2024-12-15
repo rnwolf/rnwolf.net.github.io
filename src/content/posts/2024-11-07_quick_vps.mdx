@@ -72,29 +72,30 @@ Resource Creation
 o Modify the "Global Inventory List"
 o Deterministically create resources
 
-await feature.deplovFeatureService(featureServiceAras);
+`await feature.deplovFeatureService(featureServiceAras);`
 
 Inputs
 o Stack references
 o Current infrastructure state
 
-const cluster = osoCtoudOutput(clusterName,region);
+```const cluster = osoCtoudOutput(clusterName,region);```
 
 Configuration
 o Inputs to resource creation
 o More dynamic
 
-const environment = feature. featureEnvironment(.....
+`const environment = feature. featureEnvironment(.....`
 
 Naming, Naming, Naming
 
+```
 o Changing resource names tells pulumi to destroy and recreate everything
 o Name conflicts and length limits are a pain
 o Figure out early which resources you'll reuse and name accordingly.
 o <project>-<stack>-<region>-<resource> is a decent starting point, with more sub-components if you are deploying "per-<something_else>"
 o Store your "base name" in a variable
 o Have caller pass in a (short) namespace
-
+```
 
 Debugging Pulumi
 
